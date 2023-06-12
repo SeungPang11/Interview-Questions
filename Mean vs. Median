@@ -1,0 +1,16 @@
+When do you use mean vs median?
+
+->
+Mean represents the average value of the dataset. 
+Median represents the middle value of a dataset. 
+It is calculated by arranging all observations in a dataset from 
+smallest to largest and then identifying the middle value.
+
+Usage
+Mean is used as a metric to describe the center of a dataset when the distribution 
+is mostly symmetrical with no outliers. 
+A symmetrical distribution is a distribution that, 
+if split down the middle, each half will look roughly equal.
+
+Median is used as a metric to describe the center of a dataset when the distribution 
+is skewed to the left or right, or there are outliers present.

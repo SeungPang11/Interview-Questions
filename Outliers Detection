@@ -1,0 +1,15 @@
+What methods would you use to detect outliers in a dataset?
+
+->
+Statistical Methods-
+Z-Score: Calculate the Z-score for each data point based on its deviation from the mean. 
+Values beyond a certain threshold (e.g., Z-score > 3 or < -3) can be considered outliers.
+
+Visualization-
+Box plots: Visualize the distribution of data using quartiles. Points outside the whiskers can be identified as potential outliers.
+Scatter plots: Plot the data points and visually inspect for any observations that deviate significantly from the overall pattern.
+Histograms: Examine the distribution of data and identify any extreme values that lie far outside the main cluster.
+
+Machine Learning-Based Methods-
+Clustering techniques: Apply clustering algorithms (e.g., K-means, DBSCAN) and identify data points that do not belong to any cluster or form separate clusters.
+Isolation Forest: Use an ensemble of decision trees to isolate outliers by identifying data points that require fewer splits to be isolated.

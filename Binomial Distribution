@@ -1,0 +1,17 @@
+How do you find the expected value of a binomial distribution?
+
+->Definition
+The binomial distribution is non-normal distribution and is a probability distribution that describes the number of successes 
+in a fixed number of independent trials(n), where each trial has the same probability of success(p).
+
+Formula
+The expected value of a binomial distribution is equal to the number of trials multiplied by the probability of success, 
+which is denoted as:
+
+E(X)=n∗p
+For example, if you were flipping a coin five times, 
+
+n would be 5 and 
+
+p would be 0.5 (assuming the coin is fair) and the expected value is 2.5, 
+you could expect to get 2.5 heads on average.

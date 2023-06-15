@@ -1,0 +1,13 @@
+How would you explain to an engineer how to interpret a p-value?
+
+->
+It is the probability of observing the sample statistic assuming the null hypothesis to be true. 
+IT can be thought of as a measure of surprise as a very low p-value indicates (0.05) that 
+you have to be extremely lucky (or unlucky) to observe the sample statistic. 
+We usually reject the null hypothesis in such cases.
+
+P value is used in Hypothesis testing. 
+It explains how likely is the effect observed in the sample data. 
+Given significance level 0.05 - 
+if the p value is higher than the threshold the data sample supports null hypothesis 
+if p value is less then we can reject the null hypothesis.

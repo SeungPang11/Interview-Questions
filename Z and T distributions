@@ -1,0 +1,9 @@
+What is the difference between the standard normal distribution (Z-distribution) and the Student's t-distribution?
+
+-> 
+The standard normal distribution is used to estimate the mean of a population 
+when the population standard deviation is known and the sample size is large. 
+
+On the other hand, the Student's t-distribution is used to estimate the 
+the mean of a given population when the sample standard deviation is known, 
+and the sample size is small - less than 30.

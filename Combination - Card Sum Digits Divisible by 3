@@ -1,0 +1,29 @@
+Q. 10 cards numbered from 1 to 10. Pick 3 cards. Probability that the sum of digits of the chosen cards 
+is divisible by 3. 
+
+A.
+3n - 2 (remainder): {1, 4, 7, 10}
+3n - 1 (remainder): {2, 5, 8}
+3n (remainder): {3, 6, 9}
+
+
+1) ALL three numbers are divisible by 3
+=> 3C3 =1
+
+2) ALL three numbers have remainder 1 when divided by 3
+=> 4C3 =4
+ ways;
+
+3) ALL three numbers have remainder 2 when divided by 3
+=> 3C3 =1
+
+4) One number is divisible by 3, one number has remainder 1 when divided by 3
+,and one number has remainder 2 when divided by 3
+=> 3C1 * 4C1 * 3C1 =36
+
+The number of favorable cases is 1+4+1+36=42
+
+
+Since there are 10C3=120 possible ways to select three numbers from the set [10]={1,2,3,4,5,6,7,8,9,10}
+The probability that the sum of the numbers on the cards that are drawn is divisible by 3
+42/120 = 720

@@ -12,7 +12,6 @@ A.
 
 2) ALL three numbers have remainder 1 when divided by 3
 => 4C3 =4
- ways;
 
 3) ALL three numbers have remainder 2 when divided by 3
 => 3C3 =1
